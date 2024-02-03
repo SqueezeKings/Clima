@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <script src="https://kit.fontawesome.com/f255c45a31.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="card">
+        <h1>BUSCADOR DEL CLIMA</h1>
+        <div class="result">
+
+
+        </div>
+
+        <form action="php/db.php" method="POST" class="get-wheater">
+            <input type="text" name="city" id="city" class="input" placeholder="Write your city...">
+            <div class="select">
+                <select name="opciones" id="country">
+                    <option>Elige un Pais</option>
+                    <option value="AR">Argentina</option>
+                    <option value="CO">Colombia</option>
+                    <option value="CR">Costa rica</option>
+                    <option value="ES">España</option>
+                    <option value="US">Estados unidos</option>
+                    <option value="MX">Mexico</option>
+                    <option value="PE">Peru</option>
+                </select>
+            </div>
+
+            <button class="button">
+                <input type="submit" name="" id="" value="Get Weather">
+            </button>
+
+
+        </form>
+    </section>
+    <section class="cuerpo">
+
+        <nav class="nav">
+            <p>Today</p>
+            <p>Week</p>
+        </nav>
+
+        <div class="tarjetas">
+            <div id="one">
+                <p>domigo</p>
+                <p>img</p>
+                <p>15C°</p>
+            </div>
+            <div class="2">
+                <p>domigo</p>
+                <p>img</p>
+                <p>15C°</p>
+            </div>
+            <div class="3">
+                <p>domigo</p>
+                <p>img</p>
+                <p>15C°</p>
+            </div>
+            <div class="4">
+                <p>domigo</p>
+                <p>img</p>
+                <p>15C°</p>
+            </div>
+            <div class="5">
+                <p>domigo</p>
+                <p>img</p>
+                <p>15C°</p>
+            </div>
+            <div class="6">
+                <p>domigo</p>
+                <p>img</p>
+                <p>15C°</p>
+            </div>
+            <div class="7">
+                <p>domigo</p>
+                <p>img</p>
+                <p>15C°</p>
+            </div>
+        </div>
+        <div class="temas">
+            <h3>clima</h3>
+            <div class="cuadros">
+                <div class="img-1">
+                    <div class="titilos">
+                        <div class="icono">
+                            <i class="fa-solid fa-cloud"></i>
+                        </div>
+                        <div class="titulo">
+                            <div>
+                                <p>Clima</p>
+                                <p>Soleado con nubes</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="temp-2">
+                            <p>
+                                22°C
+                            </p>
+                        </div>
+                        <div class="info">
+                            parcialmente nublado
+                        </div>
+                    </div>
+
+                </div>
+                <div class="img-2">
+
+                </div>
+                <div class="img-3">
+
+                </div>
+                <div class="img-4">
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+        <script src="Custom.js"></script>
+</body>
+
+</html>
